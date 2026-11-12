@@ -55,10 +55,15 @@ Current versions of all skills. Agents can compare against local versions to che
 | signup | 2.0.3 | 2026-11-09 |
 | site-architecture | 2.1.3 | 2026-11-09 |
 | sms | 1.1.3 | 2026-11-09 |
-| social | 2.5.2 | 2026-11-09 |
+| social | 2.5.3 | 2026-11-12 |
 | video | 2.4.3 | 2026-11-09 |
 
 ## Recent Changes
+
+### 2.14.11 (2026-11-12)
+
+- **social** (2.5.2 → 2.5.3): reverse-engineering adds **Outlier Formats**: separate the niche (sets the view ceiling) from the format (sets who you compete with), judge a post by views against the creator's median rather than in absolute terms, three ways to win an outlier format (make the best version, import a proven entertainment format into an empty niche, scale it), and why the window closes. SKILL.md points to it from the reverse-engineering section.
+- **Tools**: the Google Search Console guide notes that Composio offers a toolkit for MCP access.
 
 ### 2.14.10 (2026-11-12)
 

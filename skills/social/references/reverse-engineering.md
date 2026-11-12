@@ -4,6 +4,7 @@ Instead of guessing what works, systematically analyze top-performing content in
 
 ## Contents
 - The 6-Step Framework (Niche ID, Scrape, Analyze, Playbook, Layer Voice, Convert)
+- Outlier Formats: Where Virality Repeats
 - The Formula
 - Reverse Engineering Checklist
 
@@ -170,6 +171,26 @@ Bridge from engagement to business results:
 - Contextual product mentions within valuable content
 - Case study posts that naturally showcase your work
 - "If you want help with this, DM me" (sparingly)
+
+---
+
+## Outlier Formats: Where Virality Repeats
+
+Top creators show what works for a big account. To find what you can repeat from a small one, look for **outliers**: posts that far outrun what their account usually gets.
+
+**Separate the niche from the format.** The niche (AI, sports, B2B SaaS) sets the ceiling on views: a sports clip can reach millions, while 10K views is a big win in B2B SaaS. The format is the repeatable shape inside the niche (tutorial, news roundup, tool review, quiz). Your real competitors are accounts posting the same format, not the whole niche, so compare and position format by format.
+
+**Judge views against the account, not in absolute terms.**
+- 1M views on a 10M-follower account is the account's reach. Copying it won't repeat it.
+- 1M views on a 1K-follower account may be the format's pull. One post can be luck; the same format hitting again and again on small accounts means demand for it outruns supply.
+- Use views divided by the creator's median recent views (better than views per follower, since it reflects how the account actually performs). Outlier tools such as vidIQ Outliers, 1of10, OutlierKit and Mysocial Outliers sort by this ratio.
+
+**Three ways to win an outlier format:**
+1. **Make the best version.** Where a format keeps producing outliers but the average post is weak, beat it on pacing, editing and the idea. "Best" means what viewers like most, not a bigger budget.
+2. **Import a proven format into an empty niche.** Formats that have worked hundreds of times in entertainment (challenges, "$1 vs $1M" comparisons, quizzes) are proven to hold attention. Bring one into a niche where nobody uses it yet.
+3. **Scale it.** Once a format wins, write the script template and produce it in volume (a creator team, or drafts generated with AI that a person reviews). Hit rate is an expected value, so volume evens out the misses. Picking the format stays a human call.
+
+**The window closes.** Once a format visibly works, others copy it, posts multiply, and each one gets a smaller share of attention. Treat a format as a time-limited opportunity: speed from spotting the outlier to publishing decides the win. Keep testing new formats (see "Finding a Winning Format" in [short-form-video.md](short-form-video.md)) so you have the next one ready.
 
 ---
 

@@ -7,7 +7,7 @@ Free tool for monitoring website search performance and indexing.
 | Integration | Available | Notes |
 |-------------|-----------|-------|
 | API | ✓ | Search Analytics API, URL Inspection API |
-| MCP | - | Not available |
+| MCP | - | No official server; [Composio](composio.md) offers a Google Search Console toolkit |
 | CLI | - | Use gcloud or API scripts |
 | SDK | ✓ | Google API client libraries |
 
