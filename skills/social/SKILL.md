@@ -2,7 +2,7 @@
 name: social
 description: "When the user wants organic social content for LinkedIn, X, Instagram, TikTok, or Facebook, or asks what to post, which format to favor, or from which account: posts, threads, carousels, short-form video scripts, calendars, build-in-public posts from commits, listening. No AI tells like 'it's not X, it's Y' or broetry. For content strategy, see content-strategy. For paid ads, see ad-creative. For press, see public-relations."
 metadata:
-  version: 2.5.2
+  version: 2.5.3
 ---
 
 # Social Content
@@ -353,6 +353,8 @@ Instead of guessing, analyze what's working for top creators in your niche:
 4. **Codify playbook** — Document repeatable patterns
 5. **Layer your voice** — Apply patterns with authenticity
 6. **Convert** — Bridge attention to business results
+
+For repeatable reach from a small account, hunt **outlier formats** (posts far above the creator's usual views) rather than copying big accounts, then import proven formats into niches where nobody uses them yet.
 
 **For the complete framework**: See [references/reverse-engineering.md](references/reverse-engineering.md)
 
