@@ -2,11 +2,12 @@
 
 AI visibility work splits into two layers: what your content says (the rest of this skill) and whether an agent can *get to it at all*. This reference covers the second layer — the access/discovery/parseability audit — plus the emerging shift from agent-*readable* to agent-*actionable* sites.
 
-Two free scoring tools shipped in August 2026 and turned this into a measurable discipline:
+Free scoring tools turned this into a measurable discipline:
 
 | Tool | Run it | Method |
 |---|---|---|
 | **Is Agentic** (Vercel + Ora) | `npx is-agentic yourdomain.com` or [is-agentic.com](https://is-agentic.com) | 100+ checks; Essential checks carry most of the score; Recommended checks activate only when evidence shows you have that surface (API, MCP server, commerce); not-applicable checks are excluded, not failed; includes an observed agent journey showing where a real agent hit friction |
+| **Is It Agent Ready?** (Cloudflare) | [isitagentready.com](https://isitagentready.com), `POST https://isitagentready.com/api/scan` with `{"url": "https://yourdomain.com"}` (add `"format": "agent"` for one combined fix prompt), or the MCP server at `https://isitagentready.com/mcp` | Checks the files and headers agents look for, not the content: robots.txt, sitemap, `Link` headers, DNS-AID, llms.txt, Markdown content negotiation, AI bot rules, Content Signals, Web Bot Auth, API Catalog, OAuth metadata, MCP Server Card, A2A Agent Card, Agent Skills, WebMCP, and commerce protocols (x402, UCP, ACP, MPP). Reports a level from 0 (Not Ready) to 5 (Agent-Native) and the checks needed for the next level; pick the Content Site preset in the web UI for a site with no API or store |
 | **Frase Agent Readiness Checker** | [frase.io/tools/agent-readiness](https://www.frase.io/tools/agent-readiness) | Access / Discovery / Parseability triad; 80+ = agents can reliably use the site, 60–79 = solid with gaps, <60 = real access problems |
 
 For developer documentation specifically, Fern's **Agent Score** grades a docs site for coding agents (run `npx afdocs check <docs-url>` locally first, or score it at buildwithfern.com/agent-score for a public report page).

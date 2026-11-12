@@ -6,7 +6,7 @@ Current versions of all skills. Agents can compare against local versions to che
 |-------|---------|--------------|
 | ab-testing | 2.0.7 | 2026-11-09 |
 | ad-creative | 2.12.5 | 2026-11-09 |
-| ai-seo | 2.12.3 | 2026-11-09 |
+| ai-seo | 2.12.4 | 2026-11-12 |
 | analytics | 2.2.5 | 2026-11-09 |
 | aso | 2.0.6 | 2026-11-09 |
 | attribution | 1.1.9 | 2026-11-09 |
@@ -59,6 +59,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | video | 2.4.3 | 2026-11-09 |
 
 ## Recent Changes
+
+### 2.14.10 (2026-11-12)
+
+- **ai-seo** (2.12.3 → 2.12.4): agent readiness adds Cloudflare's **isitagentready.com** to the scoring tools: what it checks, its 0–5 readiness level, and how to run it from the API or its MCP server.
 
 ### 2.14.9 (2026-11-09)
 
