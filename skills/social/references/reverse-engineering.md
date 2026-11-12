@@ -183,7 +183,7 @@ Top creators show what works for a big account. To find what you can repeat from
 **Judge views against the account, not in absolute terms.**
 - 1M views on a 10M-follower account is the account's reach. Copying it won't repeat it.
 - 1M views on a 1K-follower account may be the format's pull. One post can be luck; the same format hitting again and again on small accounts means demand for it outruns supply.
-- Use views divided by the creator's median recent views (better than views per follower, since it reflects how the account actually performs). Outlier tools such as vidIQ Outliers, 1of10, OutlierKit and Mysocial Outliers sort by this ratio.
+- Use views divided by the creator's median recent views (better than views per follower, since it reflects how the account actually performs), and compare posts at a similar age: a six-month-old post has had more time to collect views than last week's. Outlier tools such as vidIQ Outliers, 1of10, OutlierKit and Mysocial Outliers rank by a multiple of each creator's usual views, each with its own baseline (OutlierKit, for example, uses average views per video), so check how a tool computes its score before comparing across tools.
 
 **Three ways to win an outlier format:**
 1. **Make the best version.** Where a format keeps producing outliers but the average post is weak, beat it on pacing, editing and the idea. "Best" means what viewers like most, not a bigger budget.
