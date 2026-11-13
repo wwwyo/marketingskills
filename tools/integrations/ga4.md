@@ -97,6 +97,10 @@ POST https://www.google-analytics.com/mp/collect?measurement_id={measurement_id}
 }
 ```
 
+### Send via Cloudflare Zaraz (server-side)
+
+When you add the GA4 tool through the Zaraz config API instead of the dashboard, set `"component": "google-analytics_v4"`, the dashboard's internal name. Don't use the npm package name `google-analytics-4`: the API still accepts it, and Zaraz reports the trigger and action as fired, but nothing reaches GA4. To confirm a setup, look for the hit in GA4 Realtime; a saved config or Zaraz's own action counts are not enough.
+
 ## Key Dimensions & Metrics
 
 ### Common Dimensions
