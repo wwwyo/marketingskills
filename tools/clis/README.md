@@ -72,6 +72,7 @@ Every CLI reads credentials from environment variables:
 | `klaviyo` | `KLAVIYO_API_KEY` |
 | `linkedin-ads` | `LINKEDIN_ACCESS_TOKEN` |
 | `livestorm` | `LIVESTORM_API_TOKEN` |
+| `lighthouse` | None (runs locally via `bunx`; needs bun and Chrome/Chromium) |
 | `mailchimp` | `MAILCHIMP_API_KEY` |
 | `mention-me` | `MENTIONME_API_KEY` |
 | `meta-ads` | `META_ACCESS_TOKEN`, `META_AD_ACCOUNT_ID` |
@@ -188,6 +189,7 @@ DOMAINS=$(rewardful affiliates list | jq -r '.data[].email')
 | `klaviyo.js` | Email/SMS | [Klaviyo](https://klaviyo.com) |
 | `lemlist.js` | Email Outreach | [Lemlist](https://lemlist.com) |
 | `linkedin-ads.js` | Ads | [LinkedIn Ads](https://business.linkedin.com/marketing-solutions/ads) |
+| `lighthouse.js` | SEO / Performance | [Lighthouse](https://developer.chrome.com/docs/lighthouse) |
 | `livestorm.js` | Webinar | [Livestorm](https://livestorm.co) |
 | `mailchimp.js` | Email | [Mailchimp](https://mailchimp.com) |
 | `mention-me.js` | Referral | [Mention Me](https://www.mention-me.com) |

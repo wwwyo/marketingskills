@@ -55,6 +55,7 @@ Anyone — including tool makers and partners — may contribute content that na
 | ahrefs | SEO | ✓ | ✓ | [✓](clis/ahrefs.js) | - | [ahrefs.md](integrations/ahrefs.md) |
 | dataforseo | SEO | ✓ | - | [✓](clis/dataforseo.js) | ✓ | [dataforseo.md](integrations/dataforseo.md) |
 | keywords-everywhere | SEO | ✓ | - | [✓](clis/keywords-everywhere.js) | - | [keywords-everywhere.md](integrations/keywords-everywhere.md) |
+| lighthouse | SEO / Performance | - | - | [✓](clis/lighthouse.js) | - | [lighthouse.md](integrations/lighthouse.md) |
 | rankparse | SEO | ✓ | ✓ | [✓](clis/rankparse.js) | - | [rankparse.md](integrations/rankparse.md) |
 | omnia | AEO | ✓ | ✓ | - | - | [omnia.md](integrations/omnia.md) |
 | cloro | AEO | ✓ | ✓ | [✓](clis/cloro.js) | - | [cloro.md](integrations/cloro.md) |
@@ -183,8 +184,9 @@ Search engine optimization tools for keyword research, rank tracking, and site a
 | **dataforseo** | SERP tracking, backlinks, on-page audits | Comprehensive API |
 | **keywords-everywhere** | Quick keyword research, traffic estimates | Credit-based |
 | **rankparse** | Cheap, agent-friendly backlinks + domain data | Credit-based, MCP available |
+| **lighthouse** | Core Web Vitals and page speed (PageSpeed Insights engine) | Free, runs locally via bunx |
 
-**Agent recommendation**: Google Search Console is essential (free). Add Semrush or Ahrefs for competitive research. DataForSEO for programmatic SERP data. Keywords Everywhere for quick keyword lookups. RankParse for agent workflows where per-call cost matters — backlinks, domain authority, and tech stack at a fraction of enterprise pricing.
+**Agent recommendation**: Google Search Console is essential (free). Add Semrush or Ahrefs for competitive research. DataForSEO for programmatic SERP data. Keywords Everywhere for quick keyword lookups. RankParse for agent workflows where per-call cost matters — backlinks, domain authority, and tech stack at a fraction of enterprise pricing. Lighthouse for page speed and Core Web Vitals lab scores with no API key or quota.
 
 ### CRM
 
