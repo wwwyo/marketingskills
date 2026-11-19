@@ -134,6 +134,7 @@ Anyone — including tool makers and partners — may contribute content that na
 | admakeai | AI Content | ✓ | ✓ | - | - | [admakeai.md](integrations/admakeai.md) |
 | buffer | Social | ✓ | ✓ | [✓](clis/buffer.js) | - | [buffer.md](integrations/buffer.md) |
 | post-bridge | Social | ✓ | ✓ | ✓ | - | [post-bridge.md](integrations/post-bridge.md) |
+| fxtwitter | Social | ✓ | - | - | - | [fxtwitter.md](integrations/fxtwitter.md) |
 | wistia | Video | ✓ | - | [✓](clis/wistia.js) | - | [wistia.md](integrations/wistia.md) |
 | heygen | Video | ✓ | ✓ | - | ✓ | [heygen.md](integrations/heygen.md) |
 | hyperframes | Video | - | - | ✓ | ✓ | [hyperframes.md](integrations/hyperframes.md) |
@@ -337,8 +338,9 @@ Social media scheduling, management, and analytics.
 |------|----------|-------|
 | **buffer** | Social scheduling, analytics | Multi-platform |
 | **post-bridge** | Scheduling one video to many accounts and platforms, per-post analytics | Short-form video focus; daily view snapshots |
+| **fxtwitter** | Reading one public X post from its URL (text, author, counts, media) | Free, no key; unofficial |
 
-**Agent recommendation**: Use the scheduler the user already has. Both schedule across platforms through an API and MCP.
+**Agent recommendation**: Use the scheduler the user already has. Both schedule across platforms through an API and MCP. When the user gives you an X post URL, read it through FxTwitter: fetching x.com directly usually hits a login wall.
 
 ### Video
 

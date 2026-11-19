@@ -2,7 +2,7 @@
 name: social
 description: "When the user wants organic social content for LinkedIn, X, Instagram, TikTok, or Facebook, or asks what to post, which format to favor, or from which account: posts, threads, carousels, short-form video scripts, calendars, build-in-public posts from commits, listening. No AI tells like 'it's not X, it's Y' or broetry. For content strategy, see content-strategy. For paid ads, see ad-creative. For press, see public-relations."
 metadata:
-  version: 2.5.3
+  version: 2.5.4
 ---
 
 # Social Content
@@ -55,6 +55,8 @@ Gather this context (ask if not provided):
 **For hashtag limits and character counts**: See [references/platform-limits.md](references/platform-limits.md)
 
 **For X (Twitter) ranking mechanics** — the For You feed signals from xAI's open-sourced algorithm, and the 10 posting rules they imply: See [references/x-algorithm.md](references/x-algorithm.md). Use it whenever the task involves posting on X.
+
+**For reading an X post from a URL** the user gives you: fetching `x.com` directly usually returns a login wall, so call the FxTwitter API instead (`https://api.fxtwitter.com/<user>/status/<id>`, free, no key). See [tools/integrations/fxtwitter.md](../../tools/integrations/fxtwitter.md).
 
 ---
 

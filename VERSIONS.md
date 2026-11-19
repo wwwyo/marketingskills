@@ -55,10 +55,15 @@ Current versions of all skills. Agents can compare against local versions to che
 | signup | 2.0.3 | 2026-11-09 |
 | site-architecture | 2.1.3 | 2026-11-09 |
 | sms | 1.1.3 | 2026-11-09 |
-| social | 2.5.3 | 2026-11-12 |
+| social | 2.5.4 | 2026-11-19 |
 | video | 2.4.3 | 2026-11-09 |
 
 ## Recent Changes
+
+### 2.14.13 (2026-11-19)
+
+- **social** (2.5.3 → 2.5.4): when the user gives an X post URL, read it through the FxTwitter API instead of fetching x.com, which usually hits a login wall.
+- **Tools**: new `fxtwitter` integration guide: the free, keyless, unofficial API that returns one public X post as JSON (text, author, counts, media, quote, poll) by swapping the host to `api.fxtwitter.com`. Covers what it cannot do (profiles, search, protected accounts, full threads) and the HTML-with-200 response for missing posts.
 
 ### 2.14.12 (2026-11-13)
 
